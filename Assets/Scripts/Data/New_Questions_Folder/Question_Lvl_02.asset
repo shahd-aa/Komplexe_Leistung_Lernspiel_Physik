@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b030f8ae0b9d0a14b9236404aa1377dd, type: 3}
+  m_Name: Question_Lvl_02
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  questionText: Was bewirkt die Kraft direkt?
+  answers:
+  - answerText: Die Beschleunigung des Fahrrads
+    explanation: "Super! Die Kraft verursacht eine Bewegungs\xE4nderung, n\xE4mlich
+      eine Beschleunigung, und nicht direkt die Geschwindigkeit."
+  - answerText: "Die Tr\xE4gheit des Fahrrads"
+    explanation: "Die Tr\xE4gheit des Fahrrads spielt hier keine Rolle, weil der
+      Bewegungszustand von der ausge\xFCbten Kraft und der dadurch entstehenden Beschleunigung
+      abh\xE4ngt!"
+  - answerText: Die Geschwindigkeit des Fahrrads
+    explanation: "Laut dem zweiten Newtonsches Gesetz (F = m * a) ist Kraft direkt
+      proportional zur Beschleunigung, also eine \xC4nderung der Geschwindigkeit,
+      nicht die Geschwindigkeit selbst!"
+  correctAnswerIndex: 0
+  correctFeedback: Richtig! Gut gemacht!
+  wrongFeedback: Leider falsch. Versuch es nochmal!
+  basePoints: 100

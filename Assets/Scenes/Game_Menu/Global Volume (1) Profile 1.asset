@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume (1) Profile 1
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.VolumeProfile
+  components: []
+--- !u!114 &1751521877611334038
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a074ec59f6e910b4e8c49f57e56cf95a, type: 3}
+  m_Name: VolumetricFogVolumeComponent
+  m_EditorClassIdentifier: com.cqf.urpvolumetricfog.runtime::VolumetricFogVolumeComponent
+  active: 1
+  <displayName>k__BackingField: Volumetric Fog
+  distance:
+    <fieldHash>k__BackingField: 834333928
+    m_OverrideState: 1
+    m_Value: 0
+  baseHeight:
+    <fieldHash>k__BackingField: 1073684320
+    m_OverrideState: 1
+    m_Value: 25
+  maximumHeight:
+    <fieldHash>k__BackingField: 1313034712
+    m_OverrideState: 1
+    m_Value: 245.3
+  enableGround:
+    <fieldHash>k__BackingField: 1791735496
+    m_OverrideState: 1
+    m_Value: 0
+  groundHeight:
+    <fieldHash>k__BackingField: 2031085888
+    m_OverrideState: 0
+    m_Value: 0
+  density:
+    <fieldHash>k__BackingField: -2024531016
+    m_OverrideState: 0
+    m_Value: 0.2
+  attenuationDistance:
+    <fieldHash>k__BackingField: -1306479840
+    m_OverrideState: 0
+    m_Value: 128
+  enableAPVContribution:
+    <fieldHash>k__BackingField: -1067129448
+    m_OverrideState: 1
+    m_Value: 0
+  APVContributionWeight:
+    <fieldHash>k__BackingField: -827779056
+    m_OverrideState: 0
+    m_Value: 1
+  enableMainLightContribution:
+    <fieldHash>k__BackingField: 129622512
+    m_OverrideState: 1
+    m_Value: 1
+  anisotropy:
+    <fieldHash>k__BackingField: 608323296
+    m_OverrideState: 1
+    m_Value: -0.28
+  scattering:
+    <fieldHash>k__BackingField: 847673688
+    m_OverrideState: 1
+    m_Value: 0.248
+  tint:
+    <fieldHash>k__BackingField: 1565724864
+    m_OverrideState: 1
+    m_Value:
+      r: 0.9056604
+      g: 0.36311856
+      b: 0.36311856
+      a: 1
+  enableAdditionalLightsContribution:
+    <fieldHash>k__BackingField: 1805075256
+    m_OverrideState: 1
+    m_Value: 0
+  maxSteps:
+    <fieldHash>k__BackingField: -2011191256
+    m_OverrideState: 0
+    m_Value: 128
+  blurIterations:
+    <fieldHash>k__BackingField: -1771840864
+    m_OverrideState: 0
+    m_Value: 2
+  enabled:
+    <fieldHash>k__BackingField: -1532490472
+    m_OverrideState: 1
+    m_Value: 1
+  renderPassEvent:
+    <fieldHash>k__BackingField: -1293140080
+    m_OverrideState: 0
+    m_Value: 550

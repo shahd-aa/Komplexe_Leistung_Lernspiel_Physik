@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d193612b5a02e40b6a753862db5a4d, type: 3}
+  m_Name: Level01_Question 2
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  questionText: "Was ist die Ursache daf\xFCr, dass die Kisten beim Abbiegen vom
+    Dach rutschen?"
+  answers:
+  - die Geschwindigkeit des Autos
+  - die Reibungskraft auf die Kisten
+  - "die Tr\xE4gheit der Kisten"
+  correctAnswerIndex: 2
+  correctFeedback: Richtig! Gut gemacht!
+  wrongFeedback: Leider falsch. Versuch es nochmal!
+  explanation: "2nd question wrong\nDie Kisten fliegen weg, weil sie aufgrund ihrer
+    Tr\xE4gheit ihren Bewegungszustand beibehalten wollen und von der Kraft des Autos
+    nichts erfahren."

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d27509431ca080740a94b70aed53a71d
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139565
+  packageName: Same Material - Static Mesh Combiner
+  packageVersion: 1.1.3
+  assetPath: Assets/MeshCombiner/Readme FIRST!.txt
+  uploadId: 379160

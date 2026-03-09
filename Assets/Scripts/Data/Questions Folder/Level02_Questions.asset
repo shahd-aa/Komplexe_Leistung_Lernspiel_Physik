@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d193612b5a02e40b6a753862db5a4d, type: 3}
+  m_Name: Level02_Questions
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  questionText: "Was sagt dir das \xFCber die Wirkung der Kraft?"
+  answers:
+  - "die St\xE4rke der Kraft h\xE4ngt von der Fallbeschleunigung ab "
+  - "die Kraft bewirkt ausschlie\xDFlich die Geschwindigkeit des Fahrrads"
+  - 'die Kraft verursacht eine Beschleunigung des Fahrrads '
+  correctAnswerIndex: 2
+  correctFeedback: Richtig! Gut gemacht!
+  wrongFeedback: Leider falsch. Versuch es nochmal!
+  explanation: "Laut dem zweiten Newtonsches Gesetz ( F = m \u2219 a ) ist die Kraft
+    direkt proportional zur Beschleunigung, also eine \xC4nderung der Geschwindigkeit,
+    nicht die Geschwindigkeit selbst!"

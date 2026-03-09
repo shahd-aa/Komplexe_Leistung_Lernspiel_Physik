@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Game_Menu.unity
+    guid: be2fe441745d7e944baefab2c50e102a
+  - enabled: 1
+    path: Assets/Scenes/Cutscene.unity
+    guid: fbaeab5d1117b474aa3953cd9aa33a77
+  - enabled: 1
+    path: Assets/Scenes/Level_1.unity
+    guid: 98e8675b72d0af24b8f7b30b0e830709
+  - enabled: 1
+    path: Assets/Scenes/Level_2.unity
+    guid: 06fa039b2707e144bbc2d2c4926e8e5e
+  - enabled: 1
+    path: Assets/Scenes/Level_3.unity
+    guid: 6d13666607080bc49a6d0eb74d2888ef
+  - enabled: 1
+    path: Assets/Scenes/Level_4.unity
+    guid: f0fec169ccb013f44be82f7cf92227e3
+  - enabled: 1
+    path: Assets/Scenes/Level_5.unity
+    guid: 643e5b88908e72847a212d3685f5bfdc
+  - enabled: 1
+    path: Assets/Scenes/Level_6.unity
+    guid: e615c8a3b1646a442b4ca7dae02236d9
+  - enabled: 1
+    path: Assets/Scenes/Level_7.unity
+    guid: e9a67a85b01e6fc4294c3142e50d440b
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 69d9f85432d2d1b44bfac5e1880e7550
+  m_configObjects:
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 47815928d559ead4488f48996f6794c1, type: 2}
+  m_UseUCBPForAssetBundles: 0

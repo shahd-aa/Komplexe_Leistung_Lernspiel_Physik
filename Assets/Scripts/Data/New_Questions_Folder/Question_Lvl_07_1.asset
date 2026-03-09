@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b030f8ae0b9d0a14b9236404aa1377dd, type: 3}
+  m_Name: Question_Lvl_07_1
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  questionText: "Wie gro\xDF ist die gesamte Kraft auf der Kiste?"
+  answers:
+  - answerText: 5N
+    explanation: "Da die beide Kr\xE4fte in dieselbe Richtung zeigen, m\xFCssen sie
+      addiert und nicht subtrahiert werden!"
+  - answerText: 25N
+    explanation: "Die Kiste erf\xE4hrt zwei Kr\xE4fte mit unterschiedlichen Betr\xE4gen,
+      also m\xFCssen sie je nach Richtung entweder addiert oder subtrahiert werden!"
+  - answerText: 55N
+    explanation: "Genau! Da beide Kr\xE4fte in dieselbe Richtung zeigen, addieren
+      sie sich."
+  - answerText: 30N
+    explanation: "Die Kiste erf\xE4hrt zwei Kr\xE4fte mit unterschiedlichen Betr\xE4gen,
+      also m\xFCssen sie je nach Richtung entweder addiert oder subtrahiert werden!"
+  correctAnswerIndex: 2
+  correctFeedback: Richtig! Gut gemacht!
+  wrongFeedback: Leider falsch. Versuch es nochmal!
+  basePoints: 150

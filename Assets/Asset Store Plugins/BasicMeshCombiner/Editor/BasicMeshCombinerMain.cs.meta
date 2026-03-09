@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a685f09512124e04c8829ec4a27c92cf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252289
+  packageName: Basic Mesh Combiner - Easy, Scene Mesh Merge & more
+  packageVersion: 2.01
+  assetPath: Assets/BasicMeshCombiner/Editor/BasicMeshCombinerMain.cs
+  uploadId: 697471

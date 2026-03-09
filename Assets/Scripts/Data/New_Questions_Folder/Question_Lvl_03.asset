@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b030f8ae0b9d0a14b9236404aa1377dd, type: 3}
+  m_Name: Question_Lvl_03
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  questionText: Welche Kraft wirkt auf den Ball, wenn er auf den Boden trifft?
+  answers:
+  - answerText: Erdanziehungskraft
+    explanation: "Fast! Die Erdanziehungskraft beschleunigt den Ball nach unten,
+      aber sie ist nicht die Kraft, die ihn aufh\xE4lt. Das \xFCbernimmt die Kraft
+      des Bodens."
+  - answerText: Gegenkraft des Bodens
+    explanation: "Ja! Der Boden \xFCbt beim Aufprall eine nach oben gerichtete Gegenkraft
+      aus und beschleunigt den Ball deswegen wieder nach oben."
+  - answerText: Spannkraft des Balls
+    explanation: Die Spannkraft entsteht durch die Verformung des Balls, ist aber
+      nicht die Kraft, die beim Aufprall auf ihn wirkt. Entscheidend ist hier die
+      Gegenkraft des Bodens!
+  - answerText: Gewichtskraft des Balls
+    explanation: "Die Gewichtskraft wirkt nach unten und kann daher nicht die Kraft
+      sein, die den Ball beim Auftreffen stoppt, sonst w\xFCrde er einfach weiter
+      nach unten sinken! Es ist also die Gegenkraft des Bodens."
+  correctAnswerIndex: 1
+  correctFeedback: Richtig! Gut gemacht!
+  wrongFeedback: Leider falsch. Versuch es nochmal!
+  basePoints: 100

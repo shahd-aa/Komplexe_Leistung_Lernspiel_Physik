@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d193612b5a02e40b6a753862db5a4d, type: 3}
+  m_Name: Level04_Questions
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  questionText: Warum dreht sich der Kaffee weiter, obwohl keine Kraft mehr wirkt?
+  answers:
+  - Weil noch Restkraft im Kaffee steckt und ihn weiter antreibt
+  - Die Bewegungsenergie treibt ihn an
+  - "Weil es seinen Bewegungszustand beibehalten m\xF6chte"
+  correctAnswerIndex: 2
+  correctFeedback: Richtig! Gut gemacht!
+  wrongFeedback: Leider falsch. Versuch es nochmal!
+  explanation: "Sobald der Kaffee in Bewegung gesetzt wird, strebt er danach, diesen
+    Zustand zu behalten. Seine Bewegung h\xF6rt auf sobald eine andere Kraft ihn
+    \xE4ndert!"
