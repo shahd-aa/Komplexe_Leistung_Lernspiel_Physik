@@ -30,7 +30,7 @@ Newtonianz ist ein digitales Lernspiel, das im Rahmen einer Komplexen Leistung i
 
 ---
 
-## 🏆 Punktesystem
+## 🎯 Punktesystem
 
 - **100 Punkte** bei der ersten richtigen Antwort
 - **−10 Punkte** pro falschem Versuch
