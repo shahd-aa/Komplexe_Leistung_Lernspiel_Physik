@@ -37,6 +37,10 @@ public class BlueprintLevel : MonoBehaviour
     public Button submitButton;
     public Button retryButton;
 
+    [Header("Feedback Colors")]
+    public Color correctColor = new Color32(85, 154, 85, 255); // green
+    public Color wrongColor = new Color32(255, 102, 102, 255);   // red
+
     // Question data
     [Header("Question Data")]
     [SerializeField] protected QuestionData currentQuestion;
@@ -297,12 +301,15 @@ public class BlueprintLevel : MonoBehaviour
 
             // Use specific explanation if available, otherwise use general feedback
             if (feedbackText != null)
+                feedbackText.color = correctColor;
                 feedbackText.text = string.IsNullOrEmpty(explanation)
                     ? currentQuestion.correctFeedback
                     : currentQuestion.correctFeedback;
 
             if (explanationText != null)
+            {
                 explanationText.text = explanation;
+            }
 
             SetActiveSafe(characterPanel, true);
             SetActiveSafe(characterHappy, true);
@@ -325,12 +332,15 @@ public class BlueprintLevel : MonoBehaviour
 
             // Use specific explanation if available, otherwise use general feedback
             if (feedbackText != null)
+                feedbackText.color = wrongColor;
                 feedbackText.text = string.IsNullOrEmpty(explanation)
                     ? currentQuestion.wrongFeedback
                     : currentQuestion.wrongFeedback;
 
             if (explanationText != null)
+            {
                 explanationText.text = explanation;
+            }
 
             SetActiveSafe(characterPanel, true);
             SetActiveSafe(characterUpset, true);
@@ -374,7 +384,7 @@ public class BlueprintLevel : MonoBehaviour
         // Show animation if the question is NOW completed (regardless of past failures)
         if (theQuestion.isCompleted)
         {
-            // Add null check!
+
             if (rankPointsPanel != null)
             {
                 TextMeshProUGUI rankPointsText = rankPointsPanel.GetComponentInChildren<TextMeshProUGUI>();
@@ -547,7 +557,7 @@ public class BlueprintLevel : MonoBehaviour
             if (buttonObj == null) continue;
             TMP_Text buttonText = buttonObj.GetComponentInChildren<TMP_Text>(true);
             if (buttonText != null)
-                buttonText.text = currentQuestion.GetAnswerText(i); // ← CHANGED!
+                buttonText.text = currentQuestion.GetAnswerText(i);
             else
                 Debug.LogWarning($"no TMP_Text on answer option {i}", this);
         }
@@ -598,7 +608,7 @@ public class BlueprintLevel : MonoBehaviour
     {
         if (currentQuestion == null || currentQuestion.answers == null || currentQuestion.answers.Count <= 1) return;
 
-        // ← CHANGED: Store the entire correct AnswerOption, not just the text
+        // Store the entire correct AnswerOption, not just the text
         AnswerOption correctAnswer = currentQuestion.answers[Mathf.Clamp(currentQuestion.correctAnswerIndex, 0, currentQuestion.answers.Count - 1)];
 
         int n = currentQuestion.answers.Count;
@@ -608,7 +618,7 @@ public class BlueprintLevel : MonoBehaviour
             (currentQuestion.answers[i], currentQuestion.answers[j]) = (currentQuestion.answers[j], currentQuestion.answers[i]);
         }
 
-        // ← CHANGED: Find the index of the correct AnswerOption
+        // Find the index of the correct AnswerOption
         currentQuestion.correctAnswerIndex = Mathf.Clamp(currentQuestion.answers.IndexOf(correctAnswer), 0, currentQuestion.answers.Count - 1);
     }
 

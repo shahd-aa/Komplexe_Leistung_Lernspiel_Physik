@@ -19,12 +19,13 @@ MonoBehaviour:
       Bewegungszustand nicht wie das Auto \xE4ndern. Sie behalten stattdessen ihre
       geradlinige Bewegung bei."
   - answerText: Weil das Auto eine schnelle Geschwindigkeit hat
-    explanation: "Die Kisten m\xF6chten ihre eigene Geschwindigkeit beibehalten und
-      sich nicht an die Geschwindigkeit des Autos anpassen!"
-  - answerText: "Weil es Reibungskr\xE4fte auf die Kisten wirken"
-    explanation: "Reibungskr\xE4fte verhindern das Rutschen und sind daher nicht
-      verantwortlich daf\xFCr, dass die Kisten wegrutschen. Die Kisten merken nicht,
-      dass das Auto abbiegt und versuchen ihre urspr\xFCngliche Geschwindigkeit beizubehalten."
+    explanation: "Wenn die Geschwindigkeit der Grund w\xE4re, w\xFCrden die Kisten
+      bereits beim Losfahren wegrutschen. In dieser Situation ist das aber nicht
+      der Fall."
+  - answerText: Weil die Kisten eine geringe Masse haben
+    explanation: "Wenn die Masse der Grund w\xE4re, w\xFCrden schwere Kisten nicht
+      rutschen. Die Masse eines Objekts bestimmt jedoch nicht, ob es rutscht oder
+      nicht."
   correctAnswerIndex: 0
   correctFeedback: Richtig! Gut gemacht!
   wrongFeedback: Leider falsch. Versuch es nochmal!

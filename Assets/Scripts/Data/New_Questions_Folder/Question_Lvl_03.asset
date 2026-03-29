@@ -16,19 +16,17 @@ MonoBehaviour:
   answers:
   - answerText: Erdanziehungskraft
     explanation: "Fast! Die Erdanziehungskraft beschleunigt den Ball nach unten,
-      aber sie ist nicht die Kraft, die ihn aufh\xE4lt. Das \xFCbernimmt die Kraft
-      des Bodens."
+      aber sie ist nicht die Kraft, die ihn aufh\xE4lt."
   - answerText: Gegenkraft des Bodens
     explanation: "Ja! Der Boden \xFCbt beim Aufprall eine nach oben gerichtete Gegenkraft
       aus und beschleunigt den Ball deswegen wieder nach oben."
   - answerText: Spannkraft des Balls
     explanation: Die Spannkraft entsteht durch die Verformung des Balls, ist aber
-      nicht die Kraft, die beim Aufprall auf ihn wirkt. Entscheidend ist hier die
-      Gegenkraft des Bodens!
+      nicht die Kraft, die beim Aufprall auf ihn wirkt.
   - answerText: Gewichtskraft des Balls
-    explanation: "Die Gewichtskraft wirkt nach unten und kann daher nicht die Kraft
-      sein, die den Ball beim Auftreffen stoppt, sonst w\xFCrde er einfach weiter
-      nach unten sinken! Es ist also die Gegenkraft des Bodens."
+    explanation: "Die Gewichtskraft wirkt senkrecht zum Boden und kann daher nicht
+      die Kraft sein, die den Ball beim Auftreffen stoppt, sonst w\xFCrde er weiter
+      nach unten sinken."
   correctAnswerIndex: 1
   correctFeedback: Richtig! Gut gemacht!
   wrongFeedback: Leider falsch. Versuch es nochmal!

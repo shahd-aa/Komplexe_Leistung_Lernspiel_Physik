@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b030f8ae0b9d0a14b9236404aa1377dd, type: 3}
   m_Name: Question_Lvl_06
   m_EditorClassIdentifier: Assembly-CSharp::QuestionData
-  questionText: "Auf welche Personen wirken Zugkr\xE4fte?"
+  questionText: "Du hast beobachtet, dass das blaue Team mit mehr Personen immer
+    gewinnt. Welches Team sp\xFCrt die gr\xF6\xDFere Zugkraft?"
   answers:
-  - answerText: Auf beide Teams
+  - answerText: "Auf beide Teams, da beide Kr\xE4fte aus\xFCben"
     explanation: "Ja! Beim Tauziehen wirkt die Kraft \xFCber das Seil auf beide Teams.
       Beide Seiten sp\xFCren Zugkr\xE4fte, egal wer zieht oder h\xE4lt."
-  - answerText: "Nur auf das rote (rechte) Team, da sie st\xE4ndig den Seil festhalten"
-    explanation: "Auch wenn das rote Team das Seil festh\xE4lt, wirkt die Zugkraft
-      nicht nur auf sie! Wenn das blaue Team zieht, \xFCbertr\xE4gt sich die Kraft
-      auf beide Seiten und somit sp\xFCren beide eine Gegenkraft vom Seil."
-  - answerText: Nur auf das blaue (linke) Team, weil sie immer gewinnen
-    explanation: "Dass das blaue Team gewinnt oder st\xE4rker zieht, bedeutet nicht,
-      dass nur sie Kr\xE4fte sp\xFCren! Beim Tauziehen wirken die Kr\xE4fte immer
-      zwischen Seil und Personen auf beiden Seiten. "
+  - answerText: "Das rote (rechte) Team, da es st\xE4ndig das Seil festh\xE4lt"
+    explanation: "Obwohl das Festhalten \u201Epassiv\u201C aussieht, ist es physikalisch
+      gesehen genauso aktive Krafterzeugung wie ziehen. Es gibt also keinen Grund,
+      warum das rote Team deshalb mehr Kraft sp\xFCren sollte."
+  - answerText: Das blaue (linke) Team, weil es immer gewinnt
+    explanation: "Gewinnen bedeutet nur, dass das Team mehr Reibungskraft mit dem
+      Boden erzeugt und nicht, dass es eine gr\xF6\xDFere Kraft am Seil aus\xFCbt."
   correctAnswerIndex: 0
   correctFeedback: Richtig! Gut gemacht!
   wrongFeedback: Leider falsch. Versuch es nochmal!

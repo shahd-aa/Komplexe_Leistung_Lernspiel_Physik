@@ -15,20 +15,19 @@ MonoBehaviour:
   questionText: "Welche Aussage \xFCber die Kiste ist korrekt?"
   answers:
   - answerText: "Die Kiste erf\xE4hrt gar keine Kraft."
-    explanation: "Wenn die Kiste keine Kraft erfahren w\xFCrde, dann w\xFCrde es
-      keine Pfeile geben! Die beiden Kr\xE4fte heben sich zwar auf, jedoch erf\xE4hrt
-      die Kiste trotzdem beide Kr\xE4fte."
+    explanation: "Wenn die Kiste gar keine Kraft erfahren w\xFCrde, dann w\xFCrde
+      es keine Pfeile geben. Es wirken aber Kr\xE4fte auf die Kiste."
   - answerText: "Die Kiste erf\xE4hrt zwei Kr\xE4fte, aber keine Gesamtkraft."
     explanation: "Ja! Auch wenn sich die Kr\xE4fte gegenseitig aufheben, erf\xE4hrt
       die Kiste trotzdem diesen Zustand."
-  - answerText: "Die Kiste erf\xE4hrt eine Kraft von 0N."
-    explanation: "Wenn das so w\xE4re, dann w\xFCrde es gar keine Pfeile geben! Die
-      Kiste erf\xE4hrt aber die Betr\xE4ge der Kr\xE4fte und erkennt, dass sich beide
-      gegenseitig aufheben."
-  - answerText: "Die Kiste erf\xE4hrt nur eine Kraft, da sich die andere aufhebt."
+  - answerText: "Die Kiste erf\xE4hrt eine Gesamtkraft, die jedoch von ihrer eigenen
+      Masse abh\xE4ngt."
+    explanation: "Die Masse der Kiste spielt f\xFCr die Gesamtkraft keine Rolle.
+      Sie w\xE4re erst dann relevant, wenn man die resultierende Beschleunigung berechnen
+      w\xFCrde (F = m \xB7 a)."
+  - answerText: "ie Kiste erf\xE4hrt nur eine Kraft, da sich die andere aufhebt."
     explanation: "Da es zwei Kraftpfeile gibt, erf\xE4hrt die Kiste zwei Kr\xE4fte,
-      nicht nur eine! Sie erf\xE4hrt die Betr\xE4ge beider Kr\xE4fte und erkennt,
-      dass sie sich gegenseitig aufheben."
+      nicht nur eine! Sie erf\xE4hrt die Betr\xE4ge beider Kr\xE4fte."
   correctAnswerIndex: 1
   correctFeedback: Richtig! Gut gemacht!
   wrongFeedback: Leider falsch. Versuch es nochmal!

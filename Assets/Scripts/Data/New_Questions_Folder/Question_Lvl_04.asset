@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b030f8ae0b9d0a14b9236404aa1377dd, type: 3}
   m_Name: Question_Lvl_04
   m_EditorClassIdentifier: Assembly-CSharp::QuestionData
-  questionText: "Der Kaffee dreht sich nach dem R\xFChren weiter, wird aber langsamer.
-    Welche Aussage ist korrekt?"
+  questionText: "Der Kaffee dreht sich nach dem R\xFChren weiter, wird aber immer
+    langsamer. Welche Aussage ist korrekt?\r\n"
   answers:
-  - answerText: "F\xFCr eine konstante Geschwindigkeit braucht der Kaffee st\xE4ndig
-      Kraft."
-    explanation: "Bei st\xE4ndiger Krafteinwirkung w\xFCrde sich der Kaffee immer
-      schneller sein! F\xFCr eine konstante Drehung reicht eine einmalige Kraft aus."
+  - answerText: "Der Kaffee dreht sich langsamer, weil die Kraft des R\xFChrens immer
+      mehr nachl\xE4sst. "
+    explanation: "Eine Kraft wirkt nur, solange sie aktiv ausge\xFCbt wird. Sobald
+      der L\xF6ffel entfernt wird, gibt es keine R\xFChrkraft mehr; sie kann also
+      nicht langsam nachlassen, da sie ab diesem Moment gar nicht mehr existiert."
   - answerText: Eine Reibungskraft wirkt entgegen der Bewegung.
     explanation: "Genau! Wenn der Kaffee langsamer wird, muss laut Tr\xE4gheitsprinzip
-      eine \xE4u\xDFere Kraft wirken, die seine Bewegung ver\xE4ndert."
-  - answerText: Die Bewegungsenergie geht mit der Zeit verloren.
-    explanation: "Energie geht nie verloren, sondern wird immer in eine andere Form
-      umgewandelt! In diesem Fall sorgt eine Reibunsgkraft f\xFCr die Verlangsamung
-      des Kaffees."
+      eine \xE4u\xDFere Kraft wirken, die seine Bewegung abbremst."
+  - answerText: Der Kaffee dreht sich langsamer, weil Objekte von sich aus zu einem
+      Ruhezustand neigen.
+    explanation: "Laut dem Tr\xE4gheitsprinzip neigen Objekte gerade nicht zur Ruhe.
+      Sie behalten ihren Bewegungszustand bei, solange keine \xE4u\xDFere Kraft einwirkt."
   correctAnswerIndex: 1
   correctFeedback: Richtig! Gut gemacht!
   wrongFeedback: Leider falsch. Versuch es nochmal!

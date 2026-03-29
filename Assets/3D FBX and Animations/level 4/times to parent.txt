@@ -1,6 +1,0 @@
-pick up coffee and put it on machine: 8.9272
-put down coffee: 11.4833
-pick up spoon: 15.4667
-pick up filled coffee: 21.6
-put down coffee: 23.5167
-put down spoon: 34.25

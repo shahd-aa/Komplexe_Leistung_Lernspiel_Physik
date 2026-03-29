@@ -15,6 +15,7 @@ public class GameManager_Lvl_02 : BlueprintLevel
     protected override void Start()
     {
         base.Start();
+        SetActiveSafe(placeholderCharacter, false);
     }
 
     protected override void OnCutsceneState()
@@ -32,13 +33,12 @@ public class GameManager_Lvl_02 : BlueprintLevel
     protected override IEnumerator OnQuizState()
     {
         yield return base.OnQuizState();
-        SetActiveSafe(placeholderCharacter, true);
+        //SetActiveSafe(placeholderCharacter, true);
     }
 
     protected override void HideAllPanels()
     {
         base.HideAllPanels();
         SetActiveSafe(arrowsPanel, false);
-        SetActiveSafe(placeholderCharacter, false);
     }
 }

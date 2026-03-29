@@ -91,7 +91,7 @@ public class DialogueUIAnimations : MonoBehaviour
             {
                 triggersActivated[1] = true;
                 ShowOnlyThisObject(newtonLawsPanel);
-                
+
                 // Hide all children in the panel first
                 foreach (Transform child in newtonLawsPanel.transform)
                 {
@@ -117,7 +117,7 @@ public class DialogueUIAnimations : MonoBehaviour
                 {
                     child.gameObject.SetActive(false);
                 }
-                
+
                 foreach (GameObject obj in sevenLevelsObjects)
                 {
                     obj.SetActive(true);
@@ -132,7 +132,7 @@ public class DialogueUIAnimations : MonoBehaviour
                 triggersActivated[3] = true;
                 HideAllObjects();
                 rankPanels.SetActive(true);
-                
+
                 // Show all rank objects
                 foreach (var obj in rankObjects)
                 {
@@ -161,15 +161,20 @@ public class DialogueUIAnimations : MonoBehaviour
                 originalSparklePos.z + (i * zOffsetPerRank)
             );
 
-            sparkles.transform.localScale = Vector3.zero;
-            sparkles.transform
-                .DOScale(0.8f, 0.3f)
-                .SetEase(Ease.OutBack);
+            // ← stop and clear old particles first
+            sparkles.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+
+            // ← reset scale instantly to full, no tween on the PS itself
+            sparkles.transform.localScale = Vector3.one;
 
             sparkles.Play();
 
             yield return new WaitForSeconds(delayBetweenRanks);
         }
+
+        // ← stop after last rank
+        yield return new WaitForSeconds(1f);
+        sparkles.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
     }
 
     public void PopObject(GameObject obj, float duration, float delay, Ease easeType = Ease.OutBack)

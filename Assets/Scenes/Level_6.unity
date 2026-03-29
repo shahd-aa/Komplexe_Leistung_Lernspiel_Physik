@@ -7595,6 +7595,8 @@ MonoBehaviour:
   nextButton: {fileID: 5657396288328021548}
   submitButton: {fileID: 3661429735185968115}
   retryButton: {fileID: 3217168613663531580}
+  correctColor: {r: 0.33333334, g: 0.6039216, b: 0.33333334, a: 1}
+  wrongColor: {r: 1, g: 0.4, b: 0.4, a: 1}
   currentQuestion: {fileID: 11400000, guid: deb9419431899c941ac8b8e9cb00aec2, type: 2}
   levelNumber: 6
   questionProgressList: []
@@ -14219,7 +14221,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -20096,7 +20098,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0

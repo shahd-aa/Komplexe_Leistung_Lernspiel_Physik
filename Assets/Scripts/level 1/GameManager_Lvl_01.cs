@@ -5,6 +5,8 @@ using System.Collections.Generic;
 
 public class GameManager_Lvl_01 : BlueprintLevel
 {
+    public List<Rigidbody> boxes;
+
     [Header("Multiple Questions")]
 
     public QuestionData question1;
@@ -55,6 +57,7 @@ public class GameManager_Lvl_01 : BlueprintLevel
 
             // Use specific explanation if available, otherwise use general feedback
             if (feedbackText != null)
+                feedbackText.color = correctColor;
                 feedbackText.text = string.IsNullOrEmpty(explanation)
                     ? currentQuestion.correctFeedback
                     : currentQuestion.correctFeedback;
@@ -107,6 +110,7 @@ public class GameManager_Lvl_01 : BlueprintLevel
 
             // Use specific explanation if available, otherwise use general feedback
             if (feedbackText != null)
+                feedbackText.color = wrongColor;
                 feedbackText.text = string.IsNullOrEmpty(explanation)
                     ? currentQuestion.wrongFeedback
                     : currentQuestion.wrongFeedback;
@@ -205,5 +209,11 @@ public class GameManager_Lvl_01 : BlueprintLevel
             submitButton.onClick.RemoveAllListeners();
             submitButton.onClick.AddListener(() => answerSystem.CheckAnswer());
         }
+    }
+
+    public void SetKinematic(bool state)
+    {
+        foreach (Rigidbody box in boxes)
+            box.isKinematic = state;
     }
 }

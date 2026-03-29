@@ -11,24 +11,11 @@ using UnityEngine.SceneManagement;
 
 public class GameManager_Lvl_04 : BlueprintLevel
 {
-    [Header("Level Specific")]
-    public GameObject character;
-
-    public GameObject spoon1;
-    public GameObject spoon2;
-    public GameObject spoon3;
-
 
     protected override void Start()
     {
         Debug.Log($"starting level: [{levelNumber}]");
         base.Start();
-    }
-
-    protected override void OnCutsceneEnded(PlayableDirector pd)
-    {
-        base.OnCutsceneEnded(pd);
-        character.SetActive(false);
     }
 
     public void DeactivateObject(GameObject obj)

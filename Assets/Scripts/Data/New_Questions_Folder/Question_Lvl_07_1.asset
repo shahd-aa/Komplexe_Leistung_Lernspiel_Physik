@@ -15,17 +15,18 @@ MonoBehaviour:
   questionText: "Wie gro\xDF ist die gesamte Kraft auf der Kiste?"
   answers:
   - answerText: 5N
-    explanation: "Da die beide Kr\xE4fte in dieselbe Richtung zeigen, m\xFCssen sie
-      addiert und nicht subtrahiert werden!"
+    explanation: "Eine Subtraktion der beiden Kr\xE4fte w\xFCrde bedeuten, dass sie
+      entgegengesetzt gerichtet sind und sich vollst\xE4ndig bzw. teilweise aufheben.
+      In diesem Fall haben die Kr\xE4fte jedoch dieselbe Richtung."
   - answerText: 25N
-    explanation: "Die Kiste erf\xE4hrt zwei Kr\xE4fte mit unterschiedlichen Betr\xE4gen,
-      also m\xFCssen sie je nach Richtung entweder addiert oder subtrahiert werden!"
+    explanation: "Dies kann nicht richtig sein, da die Kiste zwei Kr\xE4fte mit unterschiedlichen
+      Betr\xE4gen erf\xE4hrt. 25N ist nur einer davon."
   - answerText: 55N
     explanation: "Genau! Da beide Kr\xE4fte in dieselbe Richtung zeigen, addieren
       sie sich."
   - answerText: 30N
-    explanation: "Die Kiste erf\xE4hrt zwei Kr\xE4fte mit unterschiedlichen Betr\xE4gen,
-      also m\xFCssen sie je nach Richtung entweder addiert oder subtrahiert werden!"
+    explanation: "Dies kann nicht richtig sein, da die Kiste zwei Kr\xE4fte mit unterschiedlichen
+      Betr\xE4gen erf\xE4hrt. 30N ist nur einer davon."
   correctAnswerIndex: 2
   correctFeedback: Richtig! Gut gemacht!
   wrongFeedback: Leider falsch. Versuch es nochmal!

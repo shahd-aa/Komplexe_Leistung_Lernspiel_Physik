@@ -15,15 +15,17 @@ MonoBehaviour:
   questionText: Welches Gesetz wird in dieser Situation demonstriert?
   answers:
   - answerText: "erstes Newtonsches Gesetz: Tr\xE4gheitsprinzip"
-    explanation: eweweww
+    explanation: "Genau! Hier wird das Tr\xE4gheitsgesetz veranschaulicht. Es besagt,
+      dass ein K\xF6rper seinen Bewegungszustand beibehalten m\xF6chte, solange keine
+      \xE4u\xDFere Kraft ihn \xE4ndert."
   - answerText: 'zweites Newtonsches Gesetz: Aktionsprinzip'
-    explanation: "Das Aktionsprinzip ist F = m * a. Hier werden allerdings keine
-      physikalischen Gr\xF6\xDFen gezeigt, sondern nur, wie sich ein tr\xE4ger K\xF6rper
-      verh\xE4lt!"
+    explanation: "Das Aktionsprinzip beschreibt den Zusammenhang zwischen Masse,
+      Beschleunigung und Kraft. In dieser Situation geht es jedoch nicht um den Zusammenhang
+      dieser Gr\xF6\xDFen."
   - answerText: 'drittes Newtonsches Gesetz: Wechselwirkungsprinzip'
-    explanation: "Das dritte Newtonsche Gesetz beschreibt die Kraft und Gegenkraft
-      zwischen verschiedenen K\xF6rpern. Hier wird jedoch die Tr\xE4gheit von K\xF6rpern
-      gezeigt!"
+    explanation: "Das Wechselwirkungsprinzip tritt auf, wenn zwei verschiedene K\xF6rper
+      miteinander in Kontakt treten und Kr\xE4fte aufeinander aus\xFCben. In dieser
+      Situation sind aber keine zwei K\xF6rper beteiligt, die sich gegenseitig beeinflussen."
   correctAnswerIndex: 0
   correctFeedback: Richtig! Gut gemacht!
   wrongFeedback: Leider falsch. Versuch es nochmal!

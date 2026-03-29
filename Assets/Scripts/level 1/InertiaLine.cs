@@ -9,6 +9,7 @@ public class InertiaLine : MonoBehaviour
     public float displayDuration = 2f;
     public float shrinkDuration = 0.5f;
 
+
     void Start()
     {
         foreach (Transform child in transform)
