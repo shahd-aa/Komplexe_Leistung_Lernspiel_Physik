@@ -25,7 +25,7 @@ MonoBehaviour:
     explanation: "Die Masse der Kiste spielt f\xFCr die Gesamtkraft keine Rolle.
       Sie w\xE4re erst dann relevant, wenn man die resultierende Beschleunigung berechnen
       w\xFCrde (F = m \xB7 a)."
-  - answerText: "ie Kiste erf\xE4hrt nur eine Kraft, da sich die andere aufhebt."
+  - answerText: "Die Kiste erf\xE4hrt nur eine Kraft, da sich die andere aufhebt."
     explanation: "Da es zwei Kraftpfeile gibt, erf\xE4hrt die Kiste zwei Kr\xE4fte,
       nicht nur eine! Sie erf\xE4hrt die Betr\xE4ge beider Kr\xE4fte."
   correctAnswerIndex: 1
