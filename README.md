@@ -11,6 +11,8 @@
 
 Newtonianz ist ein digitales Lernspiel, das im Rahmen einer Komplexen Leistung in der 10. Klasse im Fach Physik mit Bezug zum Informatik entwickelt wurde. Das Spiel richtet sich an Schüler der 10. und 11. Klasse und dient als Ergänzung zum Physikunterricht, insbesondere zur Wiederholung und Vorbereitung auf Leistungskontrollen.
 
+
+
 **Ziel:** Die Newtonschen Gesetze spielerisch vertiefen, verfestigen und häufige Fehlvorstellungen aufklären.
 
 ---
@@ -18,7 +20,7 @@ Newtonianz ist ein digitales Lernspiel, das im Rahmen einer Komplexen Leistung i
 ## 🕹️ Features
 
 > ## Hinweis
-> Dieses Projekt wird ab dem 30. März 2026 keine Updates mehr erhalten. Die endgültige Version ist [version placeholder].
+> Dieses Projekt wird ab dem 30. März 2026 keine Updates mehr erhalten. Die endgültige Version ist [v.1.1.].
 ---
 
 - **7 Level** mit steigendem Schwierigkeitsgrad
@@ -57,7 +59,9 @@ Newtonianz ist ein digitales Lernspiel, das im Rahmen einer Komplexen Leistung i
 
 ## 🚀 Ausführung
 
-link placeholder
+Du willst das Spiel spielen? 
+
+(link placeholder)
 
 ---
 
